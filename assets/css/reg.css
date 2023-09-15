@@ -1,0 +1,117 @@
+/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Registration Button */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    max-width: 275px;
+    margin:  auto;
+    padding: 20px 30px;
+    min-height: 20px;
+    background-color: #ffffff27;
+    border-top: 1px solid #ffffff6e;
+    border-left: 1px solid #ffffff6e;
+    border-radius: 15px;
+}
+
+.wrapper .h5 {
+    font-size: 15px;
+    color: #ddd;
+}
+.wrapper .destination{
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 12px;
+}
+.wrapper .destination span{
+    
+    margin-left: 100px;
+    
+}
+.wrapper .form-group {
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.wrapper .form-group:hover {
+    border-bottom: 1px solid #eee;
+}
+
+.wrapper .form-group .form-control {
+    width: 100%;
+    background: inherit;
+    border: none;
+    box-shadow: none;
+    color: #e9e9e9;
+    font-size: 10px;
+}
+
+.wrapper .form-group input::placeholder {
+    font-size: 13px;
+    color: #ddd;
+}
+
+.wrapper .form-group input:focus::placeholder {
+    opacity: 0;
+}
+
+.wrapper .option {
+    color: #ccc;
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none
+}
+
+.wrapper .option:hover {
+    color: #eee;
+}
+
+.wrapper .option input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+.wrapper .terms {
+    color: #bbb;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.wrapper .terms a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.wrapper .terms a:hover {
+    color: #fff;
+}
+
+@media(max-width: 460px) {
+    .wrapper {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .wrapper .connect::after {
+        left: 38%;
+    }
+}
+
+@media(max-width: 345px) {
+    .wrapper .connect::after {
+        left: 32%;
+    }
+}
