@@ -5,7 +5,7 @@
 Open and view the Project using the `.zip` file provided or at my [Github Repository](https://github.com/iamit010/Adventour-tourism-website).
 <div align="center">
   <br />
-  <a href="https://github.com/iamit010/adventour-tourism-website/blob/master/Adventour.png"><strong>➥ Live Demo</strong></a>
+  <a href="https://iamit010.github.io/adventour-tourism-website/"><strong>➥ Live Demo</strong></a>
 </div>
 
 ## Screeshot
