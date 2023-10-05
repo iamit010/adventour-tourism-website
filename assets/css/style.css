@@ -328,6 +328,14 @@ nav ul li a {
   border-radius: 10px;
   transition: ease 0.3s;
 }
+.btn a{
+  font-size: medium;
+  font-weight: 600;
+color: black;
+}
+.btn:hover{
+  box-shadow: 5px 5px 10px #3b3737;
+}
 
 /* Locations */
 
