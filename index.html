@@ -231,7 +231,7 @@
         <br><br>
         <div class="pack4-content">
             <div style="text-align:center">
-                <button type="button" class="btn btn-primary"><a href="./booking.html">Book Now</a></button>
+                <button type="button" class="btn btn-primary"><a href="./booking.html"><JavaBlink>Book Now</JavaBlink></a></button>
             </div>
         </div><br><br>
     </section>
@@ -694,9 +694,20 @@
             <p>Copyright © 2023 Adventour All Rights Reserved.<br>Website developed by: Amit Kumar Singh</p>
         </div>
     </section>
-
-
-
+ <SCRIPT type="text/javascript">
+        function JavaBlink() {
+           var blinks = document.getElementsByTagName('JavaBlink');
+           for (var i = blinks.length - 1; i >= 0; i--) {
+              var s = blinks[i];
+              s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
+           }
+           window.setTimeout(JavaBlink, 500);
+        }
+        if (document.addEventListener) document.addEventListener("DOMContentLoaded", JavaBlink, false);
+        else if (window.addEventListener) window.addEventListener("load", JavaBlink, false);
+        else if (window.attachEvent) window.attachEvent("onload", JavaBlink);
+        else window.onload = JavaBlink;
+      </SCRIPT>
 </body>
 
 </html>
