@@ -18,6 +18,7 @@ No additional tools are required apart from a text editor of your choice
 ## Running the App
 * Open the project through the `.zip` file provided and extract the files. 
   > Open `index.html` in the browser of your choice.
+  > Run the app.
 
 
 
