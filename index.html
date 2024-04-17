@@ -30,6 +30,7 @@
         <video src="./assets/files/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
 
         <!-- Header -->
+        
 
         <div class="content" id="home">
             <nav>
@@ -45,32 +46,34 @@
                 </ul>
                 </form>
             </nav>
+              
 
             <div class="title">
                 <h1>ADVENTOUR</h1>
-                <p>Plan your trip with us and travel around the world with the most affordable packages!</p>
+                <p>See the World for Less! Explore Amazing Destinations with Our Budget-Friendly Packages.</p>
 
                 <div class="wrapper">
                     <form action="#">
-                        <div class="h5 font-weight-bold text-center mb-3">Search your Destination</div>
+                        <div class="h5 font-weight-bold text-center mb-3" >Search your Destination</div>
                         <div class="destination">
-                            <label for="city">Enter your destination</label>
-                        </div>
+                            <label for="city" >Enter your destination</label>
+                          </div>
+                          
                         <div class="form-group ">
                             <input type="text" class="form-control" placeholder="Enter Your Name">
                         </div>
                         <div class="destination">
-                            <label for="city">Enter your date</label>
+                            <label for="city" >Enter your date</label>
                         </div>
                         <div class="form-group">
                             <input autocomplete="off" type="date" class="form-control" placeholder="Select your date">
                         </div>
                         <div class="form-group">
                             <div class="lable_total flex">
-                                  <label class="destination" for="price">Max Price : <span id="result">2500</span> 
-                                  </label>
+                                  <label class="destination"  for="price">Max Price :  <span id="result">2500</span> 
+                                </label>
                             </div>
-                            <input id="mySlider" type="range" min="0" max="10000" value="2500">
+                            <input id="mySlider" type="range" min="0" max="10000" value="2500"  style="width: 215px;">
                             <script>
                                 mySlider.oninput = showSliderValue;
                                 function showSliderValue() {

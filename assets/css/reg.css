@@ -22,14 +22,14 @@
 }
 
 .wrapper .h5 {
-    font-size: 15px;
+    font-size: 0.99rem;
     color: #ddd;
 }
 .wrapper .destination{
     margin-top: 10px;
     margin-bottom: 0;
     text-align: left;
-    font-size: 12px;
+    font-size: 0.90rem;
 }
 .wrapper .destination span{
     
