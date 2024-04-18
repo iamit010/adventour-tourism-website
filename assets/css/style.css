@@ -156,7 +156,7 @@ nav ul li a {
   gap: 85px;
   align-items: center;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 25px;
   margin-left: 350px;
   margin-right: 350px;
   margin-bottom: 1px;
@@ -164,10 +164,13 @@ nav ul li a {
 }
 
 .container-box {
+  width: 150px;
+  margin-bottom: 20px;
+  height: 234px;
   border: 1px solid #d3d3d3;
   border-radius: 5px;
   padding: 10px;
-  transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s; 
   cursor: pointer;
 }
 
