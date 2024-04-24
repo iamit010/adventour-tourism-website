@@ -11,6 +11,7 @@
 }
 
 .wrapper {
+    margin-top: 20px;
     max-width: 275px;
     margin:  auto;
     padding: 20px 30px;
@@ -33,7 +34,7 @@
 }
 .wrapper .destination span{
     
-    margin-left: 95px;
+    margin-left: 93px;
     text-align:right;
     
 }

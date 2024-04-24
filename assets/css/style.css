@@ -29,6 +29,7 @@
   pointer-events: none;
 }
 
+
 .content {
   position: relative;
   z-index: 1;
@@ -98,7 +99,7 @@ nav ul li a {
   font-size: 4vh;
   color: rgb(255, 255, 255);
   padding: 14px 17px;
-  margin-top: 25vh;
+  margin-top: 20vh;
   text-align: center;
   vertical-align: center;
 }
@@ -126,9 +127,10 @@ nav ul li a {
   color: rgb(21, 74, 74);
   box-shadow: -1px 3px 3px 0 rgba(80, 80, 80, 0.2);
   background-color: white;
-  border-radius: 20px;
+  border-radius: 25px;
   text-decoration: none;
   flex-wrap: wrap;
+  margin-top: 5px;
   transition: all 0.3ms ease;
 }
 
@@ -227,7 +229,7 @@ nav ul li a {
 .package-content {
   border-radius: 15px;
   padding: 25px;
-  padding-right: 50px;
+  padding-right: 25px;
   display: flex;
   background: linear-gradient(#445056, #47addd 45%, #fff 45%, #fff 100%);
   box-shadow: 10px 10px 15px #3b3737;
@@ -311,6 +313,13 @@ nav ul li a {
   text-align: center;
   bottom: 10px;
   right: 25px;
+  display: grid;
+  place-items: center;
+  height: 70px;
+  width:75px;
+  grid-template-columns: 1fr;  /* Single column layout */
+  grid-template-rows: 1fr;
+
 }
 
 .image:hover {
@@ -319,6 +328,13 @@ nav ul li a {
 }
 
 /* Button */
+.button-container {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
 
 .btn {
   display: inline-block;
@@ -330,6 +346,7 @@ nav ul li a {
   margin-top: 30px;
   border-radius: 10px;
   transition: ease 0.3s;
+  
 }
 .btn a{
   font-size: medium;
